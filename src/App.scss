@@ -7,7 +7,7 @@
   border-radius: 5px;
   @media (max-width: 767px) {
     box-shadow: none;
-    margin: 30px auto;
+    margin: 10px auto;
   }
   .wheels {
     width: 280px;
@@ -122,7 +122,7 @@
     position: fixed;
     z-index: 1;
     left: 50%;
-    bottom: 30px;
+    bottom: 20px;
     font-size: 17px;
 
     &.show {
@@ -137,7 +137,7 @@
         opacity: 0;
       }
       to {
-        bottom: 30px;
+        bottom: 20px;
         opacity: 1;
       }
     }
@@ -148,14 +148,14 @@
         opacity: 0;
       }
       to {
-        bottom: 30px;
+        bottom: 20px;
         opacity: 1;
       }
     }
 
     @-webkit-keyframes fadeout {
       from {
-        bottom: 30px;
+        bottom: 20px;
         opacity: 1;
       }
       to {
@@ -166,7 +166,7 @@
 
     @keyframes fadeout {
       from {
-        bottom: 30px;
+        bottom: 20px;
         opacity: 1;
       }
       to {
